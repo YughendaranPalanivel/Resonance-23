@@ -1,0 +1,77 @@
+.team{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    padding-top: 70px;
+    overflow: scroll;
+}
+
+.team-header{
+    color: var(--app-white);
+    text-align: center;
+    margin: 30px 0px;
+    background: -webkit-linear-gradient(90deg, #8D7D4A 0.08%, #F2DEA0 1815.4%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-floating-button{
+    /* position: fixed;
+    left: 50%;
+    bottom: 25px;
+    transform: translate(-50%, -25%); */
+    margin: 0px auto;
+    width: 100vw;
+    max-width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #8D7D4A 0.08%, #F2DEA0 1815.4%);
+    display: flex;
+    height: 40px;
+    z-index: 10000000;
+}
+
+.team-floating-button-content{
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.team-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-small-card{
+    margin: 30px;
+    border-radius: 15px;
+    background-color: var(--app-white);
+    border: 3px solid var(--app-light-gold);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-small-card-poster{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--app-light-gold);
+    background: #ffefc0;
+}
+
+.app-small-button-container{
+    display: flex;
+}
+
+.team-dummy-container{
+    width: 100%;
+    height: 150px;
+}

@@ -1,0 +1,27 @@
+.workshop{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    overflow-y: scroll;
+}
+
+.app-big-card{
+    margin: 30px;
+    border-radius: 15px;
+    background-color: var(--app-white);
+    border: 3px solid var(--app-light-gold);
+    overflow: hidden;
+}
+
+.app-big-card-poster{
+    width: 100%;
+}
+
+.app-big-card-image-container{
+    background: #ffefc0;
+}
